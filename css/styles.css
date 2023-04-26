@@ -2,9 +2,6 @@ body {
   max-width: 320px;
   margin: auto;
   background: #ddd;
-}
-
-body {
   border-top: solid 2px black;
   font-family: 'Space Grotesk', sans-serif;
   text-align:center;
@@ -45,12 +42,32 @@ div.box-title {
   color: #11161D;
 }
 
-div.section-light {
+.section-light {
+  display: flex;
   background-color: #E6F3FF;
-  padding-top: 16px;
+  padding: 32px 40px 50px 40px;
+  flex-direction: column;
+}
+
+.section-light img {
+  margin-top: 15px;
+  width: 40px;
+  align-self: center;
 }
 
 h2 {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 300;
+  font-size: 26px;
+}
+
+.section-dark {
+  background-color: #11161D;
+  color: #E6F3FF;
+  padding: 20px;
+}
+
+.articles {
+  background-color: #E6F3FF;
+  color: #11161D;
+  border-radius: 21px;
 }
