@@ -9,7 +9,6 @@ img {
   max-width: 100%;
 }
 
-div.box-title {
-  background-color: aquamarine;
+header {
   background-image: url("../img/dall_e_background.png");
 }
