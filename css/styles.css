@@ -22,6 +22,10 @@ header {
   
 }
 
+a {
+  text-decoration: none;
+}
+
 div.box-title {
   background-color: #000000e0;
   padding: 10px 40px;
@@ -85,6 +89,7 @@ h2 {
 .section-dark a {
   align-self: flex-end;
   color: #11161D;
+  text-decoration: underline;
 }
 
 .section-dark img {
