@@ -4,6 +4,10 @@ body {
   background: #ddd;
 }
 
+body {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -11,4 +15,11 @@ img {
 
 header {
   background-image: url("../img/bg_header.jpg");
+  color: #E6F3FF;
+}
+
+div.box-title {
+  background-color: #000000e0;
+  padding: 20px 20px 20px 20px;
+  margin: 30px;
 }
