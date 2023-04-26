@@ -5,7 +5,9 @@ body {
 }
 
 body {
+  border-top: solid 2px black;
   font-family: 'Space Grotesk', sans-serif;
+  text-align:center;
 }
 
 img {
@@ -15,11 +17,25 @@ img {
 
 header {
   background-image: url("../img/bg_header.jpg");
+  background-size: cover;
   color: #E6F3FF;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 div.box-title {
   background-color: #000000e0;
-  padding: 20px 20px 20px 20px;
-  margin: 30px;
+  padding: 10px 40px;
+  margin: 18px 22px 22px 35px;
+}
+
+.cta {
+  flex-wrap: wrap;
+  background-color: #000000e0;
+  color: #E6F3FF;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 12px;
+  align-items: center;
 }
