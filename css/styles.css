@@ -56,18 +56,37 @@ div.box-title {
 }
 
 h2 {
-  font-family: 'Space Grotesk', sans-serif;
   font-size: 26px;
 }
 
 .section-dark {
   background-color: #11161D;
   color: #E6F3FF;
-  padding: 20px;
+  padding: 25px;
+  padding-top : 50px;
 }
 
 .articles {
+  display: flex;
   background-color: #E6F3FF;
   color: #11161D;
   border-radius: 21px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.section-dark h3 {
+  font-size: 25px;
+  text-align: left;
+}
+
+.section-dark a {
+  align-self: flex-end;
+  color: #11161D;
+}
+
+.section-dark img {
+  width: 90px;
 }
