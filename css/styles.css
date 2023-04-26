@@ -8,3 +8,8 @@ img {
   display: block;
   max-width: 100%;
 }
+
+div.box-title {
+  background-color: aquamarine;
+  background-image: url("../img/dall_e_background.png");
+}
