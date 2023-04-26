@@ -96,6 +96,11 @@ h2 {
   width: 90px;
 }
 
+.section-light a {
+  padding: 6px;
+  margin: 4px 70px;
+}
+
 footer {
   background-color: #11161D;
   color: #ffffff4a;
